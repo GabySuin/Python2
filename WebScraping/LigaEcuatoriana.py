@@ -16,7 +16,7 @@ import os
 chrome_options = Options()
 chrome_options.add_argument("--disable-gpu")  # Se abre la interfaz
 
-path = "C:\\Users\\bryan.cevallos\\Documents\\WebScraping\\chromedriver-win64\\chromedriver.exe"
+path = "D:\OneDrive\\Escritorio\\proyectoGaby\\Python\\WebScraping\\chromedriver-win64\\chromedriver.exe"
 
 # Utilizar el servicio para proporcionar la ruta del ejecutable
 service = Service(path)
@@ -131,7 +131,7 @@ df2 = pd.DataFrame({
 driver.quit()
 
 # Nombre del archivo Excel
-archivo_excel = "C:\\Users\\bryan.cevallos\\Documents\\WebScraping\\LigaEcuatorianaxlsx"
+archivo_excel = "D:\OneDrive\\Escritorio\\proyectoGaby\\Python\\WebScraping\\LigaEcuatorianaxlsx"
 
 # Nombre de la hoja
 nombre_hoja = "Tabla de posiciones"
